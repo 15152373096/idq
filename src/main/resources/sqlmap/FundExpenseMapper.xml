@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.wm.idq.mapper.FundExpenseMapper">
+    <!-- insertFundIncome -->
+    <insert id="insertFundExpense" parameterType="com.wm.idq.entity.FundExpenseEntity">
+        INSERT INTO t_fund_expense( id, fundDate, projectId, expenseAmount, description, comment, createTime, updateTime)
+              VALUES (#{id}, #{fundDate}, #{projectId}, #{expenseAmount}, #{description}, #{comment}, now(), now())
+    </insert>
+</mapper>

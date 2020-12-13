@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.wm.idq.mapper.FundProjectMapper">
+    <!-- queryAllFundProject -->
+    <select id="queryAllFundProject" resultType="com.wm.idq.entity.FundProjectEntity">
+        select t.* from t_fund_project t order by t.createTime;
+    </select>
+</mapper>

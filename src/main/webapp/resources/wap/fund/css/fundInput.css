@@ -1,0 +1,448 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td, section, article, aside, header, footer, nav, dialog, figure, hgroup {
+    margin: 0;
+    padding: 0
+}
+
+input, select, textarea {
+    font-size: 100%
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+fieldset, img {
+    border: 0
+}
+
+caption, th {
+    text-align: left
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: 500
+}
+
+ul, ol, li {
+    list-style: none
+}
+
+em, i {
+    font-style: normal
+}
+
+del {
+    text-decoration: line-through
+}
+
+address, caption, cite, code, dfn, em, th, var {
+    font-style: normal;
+    font-weight: 500
+}
+
+img {
+    border: 0;
+    max-width: 100%
+}
+
+input, img {
+    vertical-align: middle
+}
+
+input:focus, a:focus {
+    outline: 0
+}
+
+input:hover {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-modify: read-write-plaintext-only
+}
+
+a {
+    color: #353d44;
+    -webkit-tap-highlight-color: transparent;
+    text-decoration: none
+}
+
+a:active {
+    opacity: .7
+}
+
+* {
+    outline: 0;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-box-sizing: border-box
+}
+
+.hide {
+    display: none
+}
+
+.clearfix {
+    overflow: hidden;
+    zoom: 1
+}
+
+body {
+    max-width: 750px;
+    min-width: 320px;
+    margin: auto;
+    line-height: 1.5;
+    font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif
+}
+
+html {
+    font-size: 50px
+}
+
+body {
+    font-size: 24px
+}
+
+@media screen and (min-width: 320px) {
+    html {
+        font-size: 21.33px
+    }
+
+    body {
+        font-size: 12px
+    }
+}
+
+@media screen and (min-width: 360px) {
+    html {
+        font-size: 24px
+    }
+
+    body {
+        font-size: 12px
+    }
+}
+
+@media screen and (min-width: 375px) {
+    html {
+        font-size: 25px
+    }
+
+    body {
+        font-size: 12px
+    }
+}
+
+@media screen and (min-width: 384px) {
+    html {
+        font-size: 25.6px
+    }
+
+    body {
+        font-size: 14px
+    }
+}
+
+@media screen and (min-width: 400px) {
+    html {
+        font-size: 26.67px
+    }
+
+    body {
+        font-size: 14px
+    }
+}
+
+@media screen and (min-width: 414px) {
+    html {
+        font-size: 27.6px
+    }
+
+    body {
+        font-size: 14px
+    }
+}
+
+@media screen and (min-width: 424px) {
+    html {
+        font-size: 28.27px
+    }
+
+    body {
+        font-size: 14px
+    }
+}
+
+@media screen and (min-width: 480px) {
+    html {
+        font-size: 32px
+    }
+
+    body {
+        font-size: 15.36px
+    }
+}
+
+@media screen and (min-width: 540px) {
+    html {
+        font-size: 36px
+    }
+
+    body {
+        font-size: 17.28px
+    }
+}
+
+@media screen and (min-width: 720px) {
+    html {
+        font-size: 48px
+    }
+
+    body {
+        font-size: 23.04px
+    }
+}
+
+@media screen and (min-width: 750px) {
+    html {
+        font-size: 50px
+    }
+
+    body {
+        font-size: 24px
+    }
+}
+
+body {
+    background: #f6f6f6;
+    font-size: .52rem
+}
+
+body.bottom-10 {
+    margin-bottom: 1.96rem
+}
+
+.nav {
+    position: relative;
+    width: 100%;
+    height: 1.8rem;
+    line-height: 1.8rem;
+    background: #f6f6f6
+}
+
+.nav .return {
+    position: absolute;
+    left: .4rem;
+    top: .42rem;
+    width: .48rem;
+    height: .88rem
+}
+
+.nav .return i {
+    display: block;
+    width: .48rem;
+    height: .88rem;
+    background: url(../images/return-icon.png#data?v=2ab73) no-repeat;
+    background-size: 100% 100%
+}
+
+.nav .title {
+    width: 100%;
+    text-align: center;
+    font-size: .68rem;
+    color: #333
+}
+
+.problem-description {
+    position: relative;
+    height: 6rem;
+    padding: .4rem;
+    border-top: 1px solid #f6f6f6;
+    border-bottom: 1px solid #f6f6f6;
+    background: #fff
+}
+
+.problem-description .description-title {
+    font-size: .6rem;
+    color: #333;
+    text-align: left
+}
+
+.problem-description .description-content {
+    width: 100%;
+    height: 3.92rem;
+    margin-top: .36rem;
+    padding: .16rem 0 0 .16rem;
+    border: 1px solid #ddd;
+    resize: none
+}
+
+.problem-description .number-control {
+    position: absolute;
+    right: .56rem;
+    bottom: .56rem;
+    font-size: .56rem;
+    color: #bbb
+}
+
+.problem-description .remark-title {
+    color: #999
+}
+
+.problem-description .repaire-reason-title {
+    height: 1.1rem;
+    line-height: 1.1rem;
+    font-size: .6rem;
+    color: #333
+}
+
+.problem-description .repaire-reason-title i {
+    color: #f00
+}
+
+.problem-description .select-reason {
+    width: 7.92rem;
+    height: 1.02rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: .08rem;
+    font-size: .6rem;
+    color: #333
+}
+
+.remark-description {
+    position: relative;
+    height: 6rem;
+    margin-top: .48rem;
+    padding: .4rem;
+    background: #fff;
+    font-size: .6rem;
+    color: #333
+}
+
+.remark-description .description-content {
+    width: 100%;
+    height: 3.92rem;
+    margin-top: .36rem;
+    padding: .16rem 0 0 .16rem;
+    border: 1px solid #ddd;
+    resize: none
+}
+
+.remark-description .number-control {
+    position: absolute;
+    right: .56rem;
+    bottom: .56rem;
+    font-size: .56rem;
+    color: #bbb
+}
+
+.service-detail-modify {
+    font-size: .6rem;
+    background: #fff
+}
+
+.service-detail-modify .service-detail-title {
+    display: block;
+    height: 1.76rem;
+    line-height: 1.76rem;
+    padding-left: .4rem;
+    border-top: 1px solid #f6f6f6;
+    color: #333
+}
+
+.service-detail-modify .service-type-box, .service-detail-modify .contract-user-box, .service-detail-modify .money-box, .service-detail-modify .member-box, .service-detail-modify .address-box, .service-detail-modify .service-time-box {
+    display: block;
+    height: 1.76rem;
+    line-height: 1.76rem;
+    padding-left: .4rem;
+    border-top: 1px solid #f6f6f6;
+    border-bottom: 1px solid #f6f6f6;
+    color: #999;
+    overflow: hidden
+}
+
+.service-detail-modify .address-box, .service-detail-modify .service-time-box {
+    position: relative
+}
+
+.service-detail-modify .service-type-title, .service-detail-modify .contract-user-title, .service-detail-modify .tel-title, .service-detail-modify .member-title, .service-detail-modify .address-title, .service-detail-modify .service-time-title {
+    display: block;
+    float: left;
+    height: 1.76rem;
+    min-width: 2.8rem;
+    line-height: 1.76rem
+}
+
+.service-detail-modify .service-type-title i, .service-detail-modify .contract-user-title i, .service-detail-modify .tel-title i, .service-detail-modify .member-title i, .service-detail-modify .address-title i, .service-detail-modify .service-time-title i {
+    color: #f00
+}
+
+.service-detail-modify .contract-user-content, .service-detail-modify .service-type-content, .service-detail-modify .money-content, .service-detail-modify .member-content, .service-detail-modify .drop-list-hd, .service-detail-modify .service-time-content {
+    float: left;
+    width: 11rem;
+    height: 1.76rem;
+    line-height: 1.76rem;
+    padding-left: .2rem;
+    border: 0;
+    color: #333;
+    overflow: hidden;
+    text-align: left;
+    background: #fff;
+    -webkit-appearance: none;
+    z-index: 3
+}
+
+.service-detail-modify .service-time-box {
+    border-bottom: 1px solid #f6f6f6
+}
+
+.service-detail-modify .change-dress, .service-detail-modify .edit-servie-tip {
+    display: block;
+    width: .38rem;
+    height: .66rem;
+    position: absolute;
+    top: .58rem;
+    right: .58rem;
+    background: url(../images/icon-right.png#data?v=a9c64) no-repeat;
+    background-size: 100% 100%;
+    pointer-events: none
+}
+
+.service-detail-modify .service-type-content.service-color {
+    color: #999
+}
+
+.service-btn {
+    padding: .48rem .8rem 0 .8rem;
+    text-align: center
+}
+
+.service-btn button {
+    width: 6.52rem;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    text-align: center
+}
+
+.service-btn button.cancle-btn {
+    background: #f1fbff;
+    border: 1px solid #1497e7;
+    border-radius: .08rem;
+    color: #1497e7;
+    font-size: .6rem
+}
+
+.service-btn button.confirm-btn {
+    background: #1497e7;
+    border: 1px solid #1497e7;
+    border-radius: .08rem;
+    color: #fff;
+    font-size: .6rem
+}
+
+.service-btn button.disable-btn {
+    background: #BFBFBF;
+    border: 1px solid #BFBFBF;
+    border-radius: .08rem;
+    color: #fff;
+    font-size: .6rem
+}

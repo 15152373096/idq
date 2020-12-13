@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.wm.idq.mapper.FundMemberMapper">
+    <!-- queryAllFundMember -->
+    <select id="queryAllFundMember" resultType="com.wm.idq.entity.FundMemberEntity">
+        select t.* from t_member t order by t.createTime;
+    </select>
+
+    <!-- insertFundMember -->
+    <insert id="insertFundMember" parameterType="com.wm.idq.entity.FundMemberEntity">
+        INSERT INTO t_member( id, name, phone, comment, createTime, updateTime)
+        VALUES (#{id}, #{name}, #{phone}, #{comment}, now(), now())
+    </insert>
+</mapper>
